@@ -1,0 +1,37 @@
+
+
+li{
+    color: rgb(202, 118, 16);
+    font-size: 150%;
+}
+img{
+    width: 300px;
+    border: 10px burlywood;
+    padding: 10px;
+    border-radius: 10px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    list-style-type: none;
+
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+li a:hover{
+    background-color: rgb(125, 240, 196);
+    color: rgb(244, 132, 229);
+}
+.gallery img:nth-child(2n){
+    border-radius: 20px;
+
+
+ 
+}
